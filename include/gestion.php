@@ -1,6 +1,8 @@
 <?php
-class gestion
+class gestion //Permet de faire la gestion des bateaux / utilisateurs présent dans la base de données.
 {
+
+    #getID / getNom, permet d'afficher les informations 
 
     private $_id;
     private $_nom;

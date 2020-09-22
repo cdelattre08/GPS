@@ -3,11 +3,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <?php
-
-function menu()
-{
+    // Affiche le menu
+    function menu() 
+    {
 ?>  
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand">GPS online</a>
@@ -20,7 +19,7 @@ function menu()
                         <span class="text-muted">Toggleable via the navbar brand.</span>
                     </div>
                 </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav"> 
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
@@ -47,11 +46,8 @@ function menu()
                 </ul>
             </div>
         </div>
-
     </nav>
-
-
 <?php
-}
+    }
 
 ?>
